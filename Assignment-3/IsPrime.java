@@ -18,7 +18,7 @@ public class IsPrime {
 		}
 		
 		if(n == 2 || n == 3){
-			System.out.println("Not Prime Number !!");
+			System.out.println("Prime Number !!");
 			System.exit(0);
 		}
 
