@@ -8,9 +8,14 @@ public class CountDigitOfNum {
 		System.out.print("Enter a number: ");
 		int n = sc.nextInt();
 		int count = 0;
-		while (n > 0) {
+
+		if(n == 0){
 			count++;
-			n /= 10;
+		}else{
+			while (n > 0) {
+				count++;
+				n /= 10;
+			}
 		}
 
 		System.out.println("The Total Digit of Number : " + count);
